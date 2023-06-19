@@ -1,0 +1,112 @@
+/* design's the outlet of the whole body*/
+body{
+    /* makes the margin 0 and padding makes or removes the space between the elements */
+    padding: 0;
+    margin: 0;
+}
+
+figure > img{
+    /*adjusts width and height of the image*/
+    width:35vw;
+    height: 95vh;
+    /*displays the image as a block*/
+    display: block;
+    margin : auto;
+}
+
+.div-1 > p{
+    /*defines the font and changes the font accordingly*/
+    font-family: 'Space Grotesk', sans-serif;
+    /*adjusts the font size*/
+    font-size: 20px;
+    /*adjusts the space between letters*/
+    letter-spacing: 10px;
+    position: absolute;
+    /*adjusts the text and places it leaving some space at the top and left*/
+    top: 3%;
+    left: 40%;
+    /*makes the font color black*/
+    color: black;
+}
+
+.movie-name{
+    /*defines the font and changes the font accordingly*/
+    font-family: 'Roboto', sans-serif;
+    /*adjusts the font size*/
+    font-size: 60px;
+    /*makes a flex container */
+    display: flex;
+    /*adjusts the space between letters*/
+    letter-spacing: 3px;
+    position: absolute;
+    /*adjusts the text and places it leaving some space at the bottom*/
+    bottom: 7%;
+    margin:0 37%;
+    /*makes the font color white*/
+    color: white;
+    /*it makes the font bolder*/
+    font-weight: 500;
+}
+
+.div-2, .date{
+    /*makes a flex container */
+    display: flex;
+    /*defines the font and changes the font accordingly*/
+    font-family: 'Rubik', sans-serif;
+    /*makes the flex container show contents in a row*/
+    flex-direction: row;
+    justify-content: flex-end;
+    /*aligns the items of the flex container to the center*/
+    align-items: center;
+    /*makes the font color white*/
+    color: white;
+    /*aligns the text to the center*/
+    text-align: center;
+}
+
+.para1{
+    position: absolute;
+    /*adjusts the text and places it leaving some space at the top and left*/
+    top:71%;
+    left:42%;
+    /*adjusts the space between letters*/
+    letter-spacing: 3px;
+    /*adjusts the font size*/
+    font-size: 12px;
+}
+
+.para2{
+    position: absolute;
+    /*adjusts the space between letters*/
+    letter-spacing: 2px;
+    /*adjusts the text and places it leaving some space at the top and left*/
+    top:72.5%;
+    left:40%;
+    /*adjusts the font size*/
+    font-size: 12px;
+}
+
+.para2 > span{
+    /*makes the font italic*/
+    font-style: italic;
+    /*adjusts the font size*/
+    font-size: 16px;
+}
+
+.date > p{
+    position: absolute;
+    /*adjusts the text and places it leaving some space at the bottom and left*/
+    bottom:8%;
+    left:45%;
+    /*adjusts the font size*/
+    font-size: 18px;
+    /*it makes the font bolder*/
+    font-weight: 500;
+}
+
+.date > p > span{
+    /*makes the font color red*/
+    color:red;
+}
+
+
